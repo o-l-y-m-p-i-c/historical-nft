@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Quixo Regular';
+    src: url('../fonts/Quixo.ttf');
+}
+
+:root{
+    /* colors */
+    --dark-yellow:#584C38;
+    --yellow:#BD9B68;
+    --white:#FFFFFF;
+    --bg-color: #1C1C1C;
+    --bg-color-light:rgba(53, 50, 50, 0.3);
+
+
+    /* fonts */
+    --font-first: 'Alumni Sans', sans-serif;
+    --font-second: 'Poppins', sans-serif;
+    --font-third: 'Quixo Regular', sans-serif;
+
+    /* weights */
+    --regular-weight: 400;
+    --semi-bold-weight:600;
+
+    /* font sizes */
+    --small: 14px;
+    --smallest-medium: 17px;
+    --small-medium:18px;
+    --medium:22px;
+    --smallest-large:32px;
+    --small-large:49px;
+    --large: 52px;
+    --largest: 220px;
+
+
+}
+
+html{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+    font-size:var(--small);
+    color: var(--white);
+    overflow-x: hidden;
+}
+header{
+    flex: 0 0 auto;
+}
+main{
+    flex: 1 0 auto;
+}
+footer{
+    flex: 0 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1268px; 
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+.--title{
+    font-family: var(--font-first);
+    font-style: normal;
+}
+
+.--yellow-btn{
+    background-color:var(--yellow);
+    color: var(--white)
+}
+.line{
+  width: 100%;
+  max-width:183px;
+  border-bottom: 2px solid var(--yellow);  
+  display: inline-block;
+}
+
+@media screen and (min-width:1440px){
+    .banner__title{
+        font-size: 115px;
+        /* line-height: px; */
+    }
+    .banner__title span{
+        font-size: 135px;
+        /* line-height: 102px; */
+    }
+    .banner__paragraph{
+        font-size: 47px;
+        /* line-height: 60px; */
+    }
+}
+
+/* 1025+ */
+@media screen and (min-width:1024px) {
+    
+}
+/* 768-1024 */
+@media screen and (max-width:1024px) {
+    
+}
+/* 480-768 */
+@media screen and (max-width:768px) {
+    
+}
+/* 360-480 */
+@media screen and (max-width:480px) {
+    
+}
+/* 0 - 360 */
+@media screen and (max-width:360px) {
+    
+}
