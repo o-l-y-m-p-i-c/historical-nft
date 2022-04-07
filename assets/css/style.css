@@ -515,6 +515,7 @@ header{
     /* height:100%; */
 }
 @media screen and (max-width:1024px){
+    
     .info{
         grid-template-columns: auto;
     }
@@ -559,6 +560,14 @@ header{
         left:0;
     }
 }
+@media screen and (max-width:730px) {
+    .info-section{
+        margin-top:-11vw;
+        padding-top:23vw;
+        overflow: hidden;
+    }
+}
+
 @media screen and (max-width:430px) {
     .info__content-block__img-wrapper{
         width: 100%;
