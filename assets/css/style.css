@@ -133,7 +133,9 @@ header{
     opacity:0.6
 }
 
-
+.banner-section{
+    overflow: hidden;
+}
 .banner-wrapper{
     position: relative;
     width: 100%;
@@ -349,8 +351,8 @@ header{
 }
 /* INFO */
 .info-section{
-    /* padding-top:160px; */
     padding-top:11vw;
+    max-width:100%;
 }
 .info{
     min-height: 768px;
