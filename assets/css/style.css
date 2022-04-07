@@ -296,11 +296,11 @@ header{
         grid-template-columns: auto;
         display:flex;
         flex-direction: column-reverse;
-        row-gap:89px;
+        /* row-gap:89px; */
         justify-content: start;
     }
-    .man__photo{
-        /* display:none; */
+    .banner__contats:nth-child(2){
+        padding-top:89px;
     }
     .banner__number{
         position:absolute;
