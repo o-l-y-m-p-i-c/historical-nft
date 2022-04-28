@@ -29,6 +29,7 @@
     --small-medium:18px;
     --medium:22px;
     --smallest-large:32px;
+    --smallest-larger: 39px;
     --small-large:49px;
     --large: 52px;
     --largest: 220px;
@@ -87,7 +88,9 @@ footer{
         padding:0 114px;
     }
 } */
-
+.--margin-center{
+    margin: 0 auto;
+}
 .--title{
     font-family: var(--font-first);
     font-style: normal;
